@@ -1,0 +1,5 @@
+const string={type:'string'},boolean={type:'boolean'};
+const vector={type:'array',items:{type:'number'},minItems:3,maxItems:3};
+const names={type:'array',items:string,minItems:2,maxItems:2};
+const object=(properties:Record<string,unknown>)=>({type:'object',properties,required:Object.keys(properties),additionalProperties:false});
+export const planSchema=object({format:{type:'string',enum:['worldlab-agent']},version:{type:'integer',enum:[1]},title:string,description:string,language:{type:'string',enum:['zh','en']},base:{type:'string',enum:['empty','campus']},components:{type:'array',maxItems:40,items:object({id:string,name:names,category:string,parts:{type:'array',minItems:1,maxItems:32,items:object({id:string,name:names,shape:{type:'string',enum:['box','sphere','cylinder']},size:vector,position:vector,rotation:vector,color:string,solid:boolean,label:boolean})}})},instances:{type:'array',maxItems:60,items:object({id:string,component:string,name:names,position:vector,rotation:vector,scale:vector,visible:boolean,detail:boolean})}});

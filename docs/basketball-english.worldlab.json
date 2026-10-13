@@ -1,0 +1,539 @@
+{
+  "format": "worldlab-map",
+  "version": 1,
+  "id": "map-b2f27836-9429-4290-af00-2c3b68026135",
+  "title": "篮球英语探索",
+  "creator": "WorldLab 创作者",
+  "description": "三层学校、房屋和动画柴犬；操场按整体识别。",
+  "updatedAt": "2026-10-07T11:37:43.415Z",
+  "language": "en",
+  "labels": [
+    {
+      "id": "tree",
+      "name": [
+        "树木",
+        "Tree"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "water",
+      "name": [
+        "水",
+        "Water"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ball",
+      "name": [
+        "球与重力",
+        "Ball & gravity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "house",
+      "name": [
+        "房屋",
+        "House"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bench",
+      "name": [
+        "长椅",
+        "Bench"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dog",
+      "name": [
+        "小狗",
+        "Dog"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "school",
+      "name": [
+        "学校",
+        "School"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "playground",
+      "name": [
+        "操场",
+        "Playground"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "door",
+      "parent": "house",
+      "name": [
+        "门",
+        "Door"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sofa",
+      "parent": "house",
+      "name": [
+        "沙发",
+        "Sofa"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "table",
+      "parent": "house",
+      "name": [
+        "桌子",
+        "Table"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "book",
+      "parent": "house",
+      "name": [
+        "书",
+        "Book"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "lamp",
+      "parent": "house",
+      "name": [
+        "落地灯",
+        "Floor lamp"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "window",
+      "parent": "house",
+      "name": [
+        "窗户",
+        "Window"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "switch-ceiling",
+      "parent": "house",
+      "name": [
+        "顶灯开关",
+        "Ceiling light switch"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "switch-lamp",
+      "parent": "house",
+      "name": [
+        "灯具开关",
+        "Lamp switch"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "basketball-court",
+      "parent": "playground",
+      "name": [
+        "篮球场",
+        "Basketball court"
+      ],
+      "enabled": false
+    },
+    {
+      "id": "basketball-hoop",
+      "parent": "playground",
+      "name": [
+        "篮球架",
+        "Basketball goal"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "basketball-rim",
+      "parent": "basketball-hoop",
+      "name": [
+        "篮圈",
+        "Basketball rim"
+      ],
+      "enabled": false
+    }
+  ],
+  "objects": [
+    {
+      "id": "school",
+      "position": [
+        -4,
+        0,
+        -17
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "playground",
+      "position": [
+        14,
+        0,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "basketball-court",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "basketball-hoop",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "basketball-rim",
+      "position": [
+        -2.8000000000000003,
+        1.8,
+        0
+      ],
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "dog",
+      "position": [
+        -15.677280000000032,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948963,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "house",
+      "position": [
+        -4,
+        0,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "window",
+      "position": [
+        -2.375,
+        1.1,
+        2.56
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "door",
+      "position": [
+        -0.75,
+        0,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "sofa",
+      "position": [
+        -1.65,
+        0,
+        -1.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "table",
+      "position": [
+        0.2,
+        0,
+        -0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "book",
+      "position": [
+        0.2,
+        0.87,
+        -0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "lamp",
+      "position": [
+        2.2,
+        0,
+        -1.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "switch-ceiling",
+      "position": [
+        -0.085,
+        0,
+        -0.045
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "switch-lamp",
+      "position": [
+        0.085,
+        0,
+        -0.045
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "tree",
+      "position": [
+        4,
+        0,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "water",
+      "position": [
+        5,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "bench",
+      "position": [
+        -1,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    },
+    {
+      "id": "ball",
+      "position": [
+        1,
+        0.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true
+    }
+  ],
+  "assets": []
+}
